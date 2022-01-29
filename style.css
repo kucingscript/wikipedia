@@ -81,6 +81,34 @@ body {
     justify-content: center;
 }
 
+.btn {
+    margin-top: 12px; 
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid var(--border-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    font-size: 1rem;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 24px;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border ease 0.3s;
+}
+
+.btn:hover {
+    border:0.5px solid#36c ;
+}
+
+.btn>a {
+    text-decoration: none;
+    color: black;
+}
+
 .sk-chase {
     width: 40px;
     height: 40px;
